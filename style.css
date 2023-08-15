@@ -1,0 +1,43 @@
+.descuento{
+    background-color: #1CD1B0;
+    height: 38px;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    margin-top: auto;
+}
+.heroes{
+    background-color: #00669F;
+    height: 101px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+}
+.batman{
+    background-color: #F3F3F3;
+    position: relative;
+    top: 120px;
+    width: 300px;
+    margin-left: 10px;
+    text-align: center;
+    height: 336px;
+}
+.harley{
+    background-color: #F3F3F3;
+    position: relative;
+    bottom: 240px;
+    left: 350px;
+    width: 300px;
+    margin-left: 10px;
+    text-align: center;
+    height: 336px;
+}
+.batman2{
+        background-color: #F3F3F3;
+        position: relative;
+        top: 120px;
+        width: 300px;
+        margin-left: 10px;
+        text-align: center;
+        height: 336px;
+}
