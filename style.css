@@ -93,3 +93,14 @@ button {
     top: 60px; 
     text-align: center;
 }
+footer {
+    position: absolute;
+    top:900px;
+    color: #F3F3F3;
+    background-color: #00669F;
+    width: 1050px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 100px;
+    margin: 0;
+}
