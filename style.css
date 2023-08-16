@@ -2,63 +2,71 @@
     font-family: 'Borel', cursive;
     font-family: 'Comfortaa', cursive;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
 }
 .descuento{
     background-color: #1CD1B0;
-    height: 38px;
-    box-sizing: border-box;
-    width: 100%;
-    position: relative;
+    width: 1050px;
+    height: 50px;
+    line-height: 38px;
+    padding-left: 20px;
     margin-top: auto;
+    box-sizing: border-box;
+    position: relative;
 }
 .heroes{
+    position: relative;
+    top: 0px;
+    margin: 0 0 50px;
     background-color: #00669F;
-    height: 101px;
-    box-sizing: border-box;
-    position: absolute;
-    width: 100%;
+    width: 1050px;
+    height: 80px;
+    line-height: 100px;
+    padding-left: 20px;
+    font-weight: normal;
     box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.4);
+    text-align: center;
+
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 main {
     position: relative;
 }
 .batman{
     background-color: #F3F3F3;
-    position: relative;
-    top: 120px;
-    width: 300px;
-    margin-left: 10px;
-    text-align: center;
-    height: 336px;
+    position: absolute;
 }
 .harley{
     background-color: #F3F3F3;
-    position: relative;
-    bottom: 240px;
-    left: 350px;
-    width: 300px;
-    margin-left: 10px;
-    text-align: center;
-    height: 336px;
+    position: absolute;
+    left: 345px;
 }
 .batman2{
         background-color: #F3F3F3;
-        position: relative;
-        top: 120px;
-        width: 300px;
-        margin-left: 10px;
-        text-align: center;
-        height: 336px;
+        position: absolute;
+        left: 690px;
 }
 h2 {
     position: relative;
     top: 50px;
     text-align: center;
 }
+h1{
+    position: relative;
+    top: 50px;
+    text-align: center; 
+}
 .avatar {
     position: absolute;
     left: 93px;
-    top: 130px;
+    top: 120px;
     border-radius: 50%;
 }
 .heart-icon {
@@ -69,19 +77,19 @@ h2 {
 .card {
     background-color: #F3F3F3;
     width: 300px;
-    height: 529px;
+    height: 620px;
     margin: 20px;
     border-radius: 16px 16px 0 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-footer {
-    position: absolute;
-    bottom: 0px;
-    color: #F3F3F3;
+button {
     background-color: #00669F;
-    width: 1024px;
-    height: 38px;
-    line-height: 38px;
-    padding-left: 20px;
-    margin: 0;
+    width: 130px;
+    height: 46px;
+    color: #F3F3F3;
+    border: none;
+    position: relative;
+    left: 80px;
+    top: 60px; 
+    text-align: center;
 }
