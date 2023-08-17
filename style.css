@@ -54,14 +54,16 @@ main {
         left: 690px;
 }
 h2 {
+    display: flex;
     position: relative;
     top: 50px;
-    text-align: center;
+    justify-content: center;
 }
 h1{
+    display: flex;
     position: relative;
     top: 50px;
-    text-align: center; 
+    justify-content: center;
 }
 .avatar {
     position: absolute;
